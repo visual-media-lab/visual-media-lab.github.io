@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="keywords" content="筑波大学,工学シスチE��学顁E知能機�EシスチE��専攻,3DチE��スプレイ,裸眼立体要E自然言語�E琁Eマスコミ工学,掛谷英紀">
+<meta name="description" content="筑波大学 シスチE��惁E��工学研究私E知能機�EシスチE��専攻 視覚メチE��ア研究室">
+<title>視覚メチE��ア研究室 / 掛谷　英紀</title>
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+</right>
+<div id="mainbox">
+	<div id="top">
+		<div id="mainmenu">
+		<center>
+		<a href ="../jp/kakeya.html"><img src ="../img/flag_jp.gif"></a>
+		<a href ="../en/kakeya.html"><img src ="../img/flag_en.gif"></a>
+		</center>
+			<ul class="menu">
+				<li class="menu"><a href ="index.html#news">News</a></li>
+				<li class="menu"><a href ="index.html#about">About</a></li>
+				<li class="menu"><a href ="index.html#resarch">Research</a></li>
+				<li class="menu"><a href ="index.html#member">Member</a></li>
+				<li class="menu"><a href ="index.html#link">Link</a></li>
+			</ul>
+		</div>
+		<div id="topimg"><img src ="../img/topimg_jp.png" width="650" height="180"></div>
+	</div>
+	
+	<h2><a name=""></a>-Profile-　　<span class="smallh2">プロフィール</span></h2>
+	<div id="contents">
+		<div id="wide">
+				<h4>掛谷　英紀 / Hideki KAKEYA</h4>
+				<img class="picture" src ="../img/kakeya.jpg"><br>
+				<p>筑波大学 シスチE��惁E��系 凁E��掁E/p>
+				<p>
+				屁E���E�EM205<br>
+				電話,FAX�E�E29-853-5255<br>
+				E-mail�E�kake�E�esys.tsukuba.ac.jp<br>
+				</p>
+				<h5>研究冁E��</h5>
+				<p>
+				�E�次允E��像工学<br>
+				メチE��ア工学<br>
+				</p>
+				
+				<h5>所属学企E/h5>
+				<p>
+				SPIE<br>
+				日本リスク研究学企Ebr>
+				映像情報メチE��ア学企Ebr>
+				日本バ�EチャルリアリチE��学企Ebr>
+				言語�E琁E��企Ebr>
+				</p>
+				<h5>社会貢献�E��勁E/h5>
+				<p>
+				特定非営利活動法人言論責任保証協会代表琁E��Ebr>
+				</p>
+				<h5>賁E��</h5>
+				<p>
+				消費生活専門相諁E��<br>
+				英検１紁Ebr>
+				</p>
+				<h5>略歴</h5>
+				<p>
+				 2011年10月　筑波大学シスチE��惁E��系凁E��掁Ebr>
+				 2007年 7月　筑波大学シスチE��惁E��工学研究科准教授<br>
+				 2004年 4月　筑波大学シスチE��惁E��工学研究科講師<br>
+				 2001年 6月　筑波大学機�E工学系講師<br>
+				 1998年 4月　通信総合研究所職員<br>
+				 1998年 3月　同大学院同研究科�E端学際工学専攻博士課程修亁E��博士(工学)取征Ebr>
+				 1995年 3月　東京大学大学院工学系研究科計数工学専攻修士課程修亁Ebr>
+				 1993年 3月　東京大学琁E��部生物化学科卒業<br>
+				</p>
+				<h5>過去の発表斁E��</h5>
+				<p>
+				<a href ="http://vmlab.kz.tsukuba.ac.jp/gyoseki.pdf">発表斁E��一覧のペ�Eジへ</a><br>
+				</p>
+				<p>
+				<h5>表彰</h5>
+				<p>
+				2001年 Discover Magazine Awards for Technological Innovation Finalist<br>
+				1998年 日本神経回路学会奨励賁Ebr>
+				1998年 納税協会「税�E小論文」佳作受賁Ebr>
+				1998年 電通国際情報サービス「学生�E惁E��通信論文」佳作受賁Ebr>
+				1995年 世界エネルギー会議ユースエネルギーシンポジウム日本代表選出<br>
+				</p>
+		</div>
+	</div>
+	
+	
+	
+	<div id="bottomMenu">
+		<a href ="index.html#news">News</a></li>　
+		<a href ="index.html#about">About</a>　
+		<a href ="index.html#resarch">Research</a>　
+		<a href ="index.html#member">Member</a>　
+		<a href ="index.html#link">Link</a>
+	</div>
+  <div id="bottom"></div>
+</div>
+</body>
+</html>
