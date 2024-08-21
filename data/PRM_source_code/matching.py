@@ -7,7 +7,7 @@ fw = open('WuhanS.txt', 'r') # reading original Wuhan sequence
 X = fw.read()
 fw.close()
 
-fm = open('BA1Cons.txt', 'r') # reading consensus sequence
+fm = open('BA11Cons.txt', 'r') # reading consensus sequence
 Y = fm.read()
 fm.close()
 

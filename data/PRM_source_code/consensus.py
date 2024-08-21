@@ -7,7 +7,7 @@ MLEN = 1400 # maximum length of sequence
 
 aminoacid = "ACDEFGHIKLMNPQRSTVWY"
 
-f = open('KP3_1_1.fasta', 'r') # reading sequence data
+f = open('BA1_1_18.fasta', 'r') # reading sequence data
 s = f.read()
 f.close()
 
@@ -31,7 +31,6 @@ for ii in range (MAX):
             sys.exit() # exit when data is no longer available
         elif s[t] == ">":
             mark = 0
-#            totalcount += 1
         elif s[t] != "\n":
             bb[ii] += s[t]
             count[ii] += 1
@@ -63,5 +62,7 @@ for ss in range(SLEN):
             max = countaa[ii]
             argmax = ii
     seq += aminoacid[argmax]
-print(seq)
+
+with open("BA11Cons.txt", "w") as o:
+    print(seq, file=o)
 
