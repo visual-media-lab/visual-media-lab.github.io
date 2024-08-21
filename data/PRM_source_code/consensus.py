@@ -49,6 +49,7 @@ for ii in range(MLEN):
         max = histo[ii]
         SLEN = ii
 
+seq = ""
 for ss in range(SLEN):
     countaa= np.zeros(SLEN)
     for ii in range (MAX):
@@ -61,5 +62,7 @@ for ss in range(SLEN):
         if (countaa[ii]>max):
             max = countaa[ii]
             argmax = ii
-    print(aminoacid[argmax], end = "")
+    seq += aminoacid[argmax]
+seq = ''.join(seq.split())
+print(seq)
 
