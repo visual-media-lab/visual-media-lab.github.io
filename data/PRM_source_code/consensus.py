@@ -2,12 +2,12 @@ import numpy as np
 import pandas as pd
 import sys
 
-MAX = 5000 # data size used to create a consensus sequence
+MAX = 2000 # data size used to create a consensus sequence
 MLEN = 1400 # maximum length of sequence 
 
 aminoacid = "ACDEFGHIKLMNPQRSTVWY"
 
-f = open('BA1_1_18.fasta', 'r') # reading sequence data
+f = open('KP3_1_1.fasta', 'r') # reading sequence data
 s = f.read()
 f.close()
 
@@ -63,6 +63,5 @@ for ss in range(SLEN):
             max = countaa[ii]
             argmax = ii
     seq += aminoacid[argmax]
-seq = ''.join(seq.split())
 print(seq)
 
