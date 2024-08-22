@@ -11,7 +11,7 @@ fm = open('BA11Cons.txt', 'r') # reading consensus sequence
 Y = fm.read()
 fm.close()
 
-print("Original Num, Original aa, Num after Mutation")
+#print("Original Num, Original aa, Num after Mutation")
 
 N = len(X)
 M = len(Y)
@@ -47,6 +47,7 @@ for i in range(1,N+1):
         H[i,j]=np.max(s)
         L[i,j]=np.argmax(s)
 
+seq = ""
 i=N
 j=M
 while i!=0 or j!=0:
@@ -54,8 +55,22 @@ while i!=0 or j!=0:
         j=j-1
     elif L[i,j]==1:
         if X[i-1] != Y[j-1]:
-            print(i, ",", X[i-1], ",", j)
+            seq += "\n"
+            tmp = str(j)
+            seq += tmp[::-1]
+            seq += ","
+            seq += X[i-1]
+            seq += ","
+            tmp = str(i)
+            seq += tmp[::-1]
+#            print(i, ",", X[i-1], ",", j)
         i=i-1
         j=j-1
     else:
         i=i-1
+
+tmp = "Num after Mutation, Original aa, Original Num\n"
+seq += tmp[::-1]
+seq = seq[::-1]
+with open("BA11Mut.csv", "w") as o:
+    print(seq, file=o)
