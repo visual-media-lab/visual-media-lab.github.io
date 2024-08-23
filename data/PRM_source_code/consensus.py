@@ -2,12 +2,15 @@ import numpy as np
 import pandas as pd
 import sys
 
+FASTA = "BA1_1_18.fasta"
+CONS = "BA11Cons.txt"
+
 MAX = 2000 # data size used to create a consensus sequence
 MLEN = 1400 # maximum length of sequence 
 
 aminoacid = "ACDEFGHIKLMNPQRSTVWY"
 
-f = open('BA1_1_18.fasta', 'r') # reading sequence data
+f = open( FASTA , 'r') # reading sequence data
 s = f.read()
 f.close()
 
@@ -63,6 +66,7 @@ for ss in range(SLEN):
             argmax = ii
     seq += aminoacid[argmax]
 
-with open("BA11Cons.txt", "w") as o:
+with open( CONS , "w") as o:
     print(seq, file=o)
 
+print(SLEN)

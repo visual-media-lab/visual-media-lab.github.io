@@ -3,11 +3,15 @@
 import numpy as np
 import sys
 
-fw = open('WuhanS.txt', 'r') # reading original Wuhan sequence
+ORIGIN = "WuhanS.txt"
+COMPARE = "BA11Cons.txt"
+OUTPUT = "BA11Mut.csv"
+
+fw = open( ORIGIN, 'r') # reading original Wuhan sequence
 X = fw.read()
 fw.close()
 
-fm = open('BA11Cons.txt', 'r') # reading consensus sequence
+fm = open( COMPARE , 'r') # reading consensus sequence
 Y = fm.read()
 fm.close()
 
@@ -72,5 +76,5 @@ while i!=0 or j!=0:
 tmp = "Num after Mutation, Original aa, Original Num\n"
 seq += tmp[::-1]
 seq = seq[::-1]
-with open("BA11Mut.csv", "w") as o:
+with open(OUTPUT, "w") as o:
     print(seq, file=o)
