@@ -3,9 +3,9 @@
 import numpy as np
 import sys
 
-ORIGIN = "WuhanS.txt"
+ORIGIN = "BA2Cons.txt"
 COMPARE = "BA286Cons.txt"
-OUTPUT = "BA286Mut.csv"
+OUTPUT = "BA286-BA2Mut.csv"
 
 fw = open( ORIGIN, 'r') # reading original Wuhan sequence
 X = fw.read()
