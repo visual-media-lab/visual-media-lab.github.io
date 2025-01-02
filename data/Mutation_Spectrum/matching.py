@@ -3,7 +3,7 @@
 import numpy as np
 import sys
 
-ORIGIN = "BA2Cons.txt"
+ORIGIN = "BA2cons.txt"
 COMPARE = "BA2861Cons.txt"
 OUTPUT = "BA2861Mut.csv"
 
