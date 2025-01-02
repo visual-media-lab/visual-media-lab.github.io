@@ -4,8 +4,8 @@ import numpy as np
 import sys
 
 ORIGIN = "BA2Cons.txt"
-COMPARE = "BA286Cons.txt"
-OUTPUT = "BA286-BA2Mut.csv"
+COMPARE = "BA2861Cons.txt"
+OUTPUT = "BA2861Mut.csv"
 
 fw = open( ORIGIN, 'r') # reading original Wuhan sequence
 X = fw.read()
@@ -62,6 +62,8 @@ while i!=0 or j!=0:
             seq += "\n"
             tmp = str(j)
             seq += tmp[::-1]
+            seq += ","
+            seq += Y[j-1]
             seq += ","
             seq += X[i-1]
             seq += ","
