@@ -4,17 +4,17 @@ import sys
 
 MAX = 100000 # max data size
 SLEN = 1270 # length of consensus sequence 
-NMUT = 31 # number of mutations
+NMUT = 30 # number of mutations
 
-f = open('BA1_1_18.fasta', 'r') # reading sequence data
+f = open('BA1.fasta', 'r') # reading sequence data
 s = f.read()
 f.close()
 
-fc = open('BA11Cons.txt', 'r') # reading consensus sequence
+fc = open('BA1Cons.txt', 'r') # reading consensus sequence
 scons = fc.read()
 fc.close()
 
-lst = pd.read_csv("BA11Mut.csv").values.tolist() # reading mutation list
+lst = pd.read_csv("BA1Mut.csv").values.tolist() # reading mutation list
 
 print("Accession No.", end = "")
 for i in range (NMUT):
@@ -115,4 +115,5 @@ for ii in range (MAX):
             print(an, end = "")
             for kk in range (NMUT):
                 print(",", mt[kk], end = "")
+
             print("")
